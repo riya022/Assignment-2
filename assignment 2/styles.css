@@ -1,0 +1,39 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font: bold 18px/21px Helvetica, Arial, sans-serif;
+  }
+  h2{
+    text-align: center;
+  }
+  
+  dl {
+    margin: 0;
+    padding: 24px 0 0 0;
+  }
+  
+  dt {
+    background: #e9b8c0;
+    border-bottom: 1px solid #dd7ce6;
+    border-top: 1px solid #c655e2;
+    color:black;
+    margin: 0;
+    padding: 2px 0 0 12px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: -1px;
+  }
+  
+  dd {
+    font: bold 20px/45px Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0 0 0 12px;
+    white-space: nowrap;
+  }
+  
+  dd + dd {
+    border-top: 1px solid rgb(231, 123, 165)
+  }
